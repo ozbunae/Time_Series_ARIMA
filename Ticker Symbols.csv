@@ -1,0 +1,32 @@
+Ticker,Company,Industry
+MMM,3M,commerece
+AXP,American Express,finance
+AAPL,Apple,tech
+BA,Boeing,transportation
+CAT,Caterpillar,construction
+CVX,Chevron,energy
+CSCO,Cisco,tech
+KO,Coca Cola,food/bev
+DIS,Disney,entertainment
+XOM,exxon mobile,energy
+GE,General Electric,energy
+GS,Goldman Sachs,finance
+HD,Home Depot,commerece
+IBM,IBM,tech
+INTC,Intel,tech
+JNJ,Johnson and Johnson,health/med
+JPM,JP Morgan,finance
+MCD,McDonalds,food/bev
+MRK,Merck & Co.,health/med
+MSFT,Microsoft,tech
+NKE,Nike,commerece
+PFE,Pfizer,health/med
+PG,Procter & Gamble,commerece
+TRV,Travelers Companies,finance
+UTX,United Technologies Co.,tech
+UNH,United Health Group,health/med
+VZ,Verizon ,tech
+WMT,Walmart,commerece
+GOOGL,Google,tech
+AMZN,Amazon,commerece
+AABA,Altaba,tech
