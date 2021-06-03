@@ -14,7 +14,7 @@ Stationarity in our model tells us how predictable or reliable it will be.  Test
 
 Below are the rolling means and standard deviations of Google and Amazon Closing prices in the US Stock Market.
 
-![rolling](photos/photo1)
+![rolling](photos/photo1.png)
 
 
 ## AD Fuller Test
@@ -36,7 +36,7 @@ The Critical Values are given with:
 
 Since your test statistic is higher than all of the critical values you fail to reject 𝐻0 at a significance level > 0.05 and reject 𝐻a. You can conclude that your time series has a unit root, or unit root process. Statistically speaking, your process is not stationary. So, you fail to reject 𝐻0.
 
-![ADF](photos/photo2)
+![ADF](photos/photo2.png)
 
 
 ## Differencing
