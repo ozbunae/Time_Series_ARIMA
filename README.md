@@ -4,7 +4,7 @@ This was a small passion project involving stock market predictions using an ARI
 
 ## Overview
 
-This data is stock market information spanning from 2006 to 2019 across over 30 companies.  The data was taken from Kaggle which can be found here.  Out of all the companies the final anlysis was focused on google.  I wanted to try to simplify this as much as possible since it was my first time working with time series. 
+This data is stock market information spanning from 2006 to 2019 across over 30 companies.  The data was taken from Kaggle which can be found [here](https://www.kaggle.com/camnugent/sandp500?select=all_stocks_5yr.csv).  Out of all the companies the final anlysis was focused on google.  I wanted to try to simplify this as much as possible since it was my first time working with time series. 
 
 
 
