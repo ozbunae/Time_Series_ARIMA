@@ -52,6 +52,20 @@ When differencing this data, I was able to acheive a perfectly straight line, th
 
 An Arima Model was used for this time series.
 
+The Auto-Regressive Integrated Moving Average (ARIMA) model describes the **autocorrelations** in the data. The model assumes that the time-series is **stationary**. It consists of three main parts:
+
+|p|d|q|
+|---|---|---|
+|AR|I|MA|
+|Auto-Regressive (AR) filter (long term)|Integration filter (stochastic trend)|Moving Average (MA) filter (short term)|
+
+* **Step 1 — Check stationarity**: If a time series has a trend or seasonality component, it must be made stationary before we can use ARIMA to forecast. .
+* **Step 2 — Difference**: If the time series is not stationary, it needs to be stationarized through differencing. Take the first difference, then check for stationarity. Take as many differences as it takes. Make sure you check seasonal differencing as well.
+* **Step 3 — Filter out a validation sample**: This will be used to validate how accurate our model is. Use train test validation split to achieve this
+* **Step 4 — Select AR and MA terms**: Use the ACF and PACF to decide whether to include an AR term(s), MA term(s), or both.
+* **Step 5 — Build the model**: Build the model and set the number of periods to forecast to N (depends on your needs).
+* **Step 6 — Validate model**: Compare the predicted values to the actuals in the validation sample.
+
 
 ## Predictions
 
