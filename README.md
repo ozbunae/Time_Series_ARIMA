@@ -16,6 +16,12 @@ Below are the rolling means and standard deviations of Google and Amazon Closing
 
 ![rolling](photos/photo1.png)
 
+## Seasonality
+
+Seasonality is a pretty straight forward concept.  It takes into account that there will be seasonal highs and lows.  A common practice for understanding the seasonality of a time series model is by creating a decomposition chart. From looking at this chart we can inference the overall trend.  The linear trend of the closing price on the left is a positive linear trend.  The seasonality in the middle exhibiits a patteren of seasonal highs and lows.  The bottom graph exhibiting residuals displays how far from the overall trend the individual data points have deviated.  
+
+![seasonality](photos/photo3.png)
+
 
 ## AD Fuller Test
 
@@ -44,6 +50,7 @@ Since your test statistic is higher than all of the critical values you fail to 
 Differencing is a method that can be used to remove stochasticity.
 When differencing this data, I was able to acheive a perfectly straight line, that for all intensive purposes could be a rolling mean.
 
+![diff](photos/photo4.png)
 
 
 ## Model
